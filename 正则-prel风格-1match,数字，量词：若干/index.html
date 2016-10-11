@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script>
+		   //母体字符串
+			var str="12 cd23 145 98od 74";
+		  //正则：查找规则   g:global找到全部
+		  // \d\d: 满足是两位数的数字
+		    var re1=/\d\d/g;
+		  //  \d+ :满足的条件是：若干位的数字
+		    var re=/\d+/g;
+		    //match:把所有匹配的东西，全部提取出来
+		    alert(str.match(re));
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>
